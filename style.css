@@ -1,0 +1,232 @@
+
+.logo1{
+    color: white;
+    font-size: 3em;
+    padding-left: 2em;
+    font-weight: bold;
+    display: inline;
+}
+.myname{
+    font-family: 'Times New Roman', Times, serif;
+    color: #cb8571;
+}
+
+.text-secondary{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* navbar height */
+nav{
+    height: 5em;
+    width: 100% !important;
+}
+.IconsSize{
+    height: 2em;
+    width: 2em;
+}
+
+/* Profile image */
+#imgheader{
+    padding-left:5em ;
+    padding-top: 5em;
+    width: 40em;
+    height:40em;
+}
+.ContainerObjName{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 15em;
+padding-right:50em;
+}
+
+/* navbar icons */
+ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+/* width:50vw;
+height: 50vh; */
+}
+
+/* navbar background */
+.background-nav{
+    background-color: #E0A49E;
+   
+}
+ /* Containers background */
+.backgroundnav{
+    background-color: #E8B9B2;
+}
+.titlecolor{
+    color: #C66E6B;
+}
+/* EducationList */
+.EducationList{
+    display: flex;
+    flex-direction: column;
+    list-style: inside;
+    color: #F9F9F9;
+}
+.backgroundedu{
+    background-color: #E9B8B2 !important;
+}
+/* Projects Section */
+.ProjectTitle{
+    color: white;
+}
+
+.bg-image{
+    background-image: url("images/Background.png");
+    height: 90vh;
+    width: 20vh;
+}
+
+.img-border{
+    border: 8px solid #E8B9B2 !important;
+}
+
+/* Projects Section */
+.card{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: #C66E6B !important;
+}
+/* Skills section */
+#skills-container{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    
+}
+.skillsbackground{
+    background-color: #e5c2b8;
+}
+.line{
+    background-color: #E0A49E !important;
+    width: 100% !important;
+    height: 2em !important;
+}
+ .SkillsText{
+    font-size: 5em;
+    color: #C66E6B ;
+    margin-left: 1em;
+ }
+
+.MyText{
+    font-size: 5em;
+    margin-left: 3em;
+    
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:repeat(4,1fr) ;
+    background-color: #E0A49E;
+    height: 20em;
+    width: 100% !important;
+}
+.footer-text{
+    color: aliceblue;
+    font-size: 1em;
+}
+.icons-footer{
+    height: 4em;
+    width: 4em;
+}
+.create-text{
+    font-size: 3em;
+    color: #464644;
+}
+#phonesection{
+    grid-column: 1/1;
+    grid-row: 1/2;
+    justify-self:center;
+    padding-right: 5em;
+    align-self: center;
+   
+}
+#emailsection{
+    grid-column: 1/1;
+    grid-row:2/3;
+    justify-self:end;
+    align-self: center;
+}
+#addresssection{
+    grid-column: 3/4;
+    grid-row:1/2;
+    justify-self:center;
+    padding-top: 1em;
+}
+#create{
+    grid-column: 3/4;
+    grid-row:2/3;
+    justify-self:start;
+    align-self: center;
+}
+#sh{
+    grid-column: 4/5;
+    grid-row:2/3;
+    justify-content:start;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    align-self: center;
+}
+#githubsection{
+    grid-column: 5/6;
+    grid-row:2/3;
+    justify-self:center;
+    align-self: center;
+}
+#linkedinsection{
+    grid-column: 6/7;
+    grid-row:2/3;
+    justify-self:start;
+    align-self: center;
+}
+
+    @media screen and (min-device-width:662px) and (max-device-width:1024px){
+        #emailsection{
+            padding-left:50px;
+        }
+        #addresssection{
+            padding-right:20px;
+            grid-column: 2/3;
+        }
+        #create{
+            grid-column: 2/4;
+            justify-self: end;
+        }
+        #githubsection{
+            grid-column: 3/4;
+            grid-row: 3/4;
+        }
+        #linkedinsection{
+            grid-column: 4/5;
+            grid-row: 3/4;
+        }
+        #pic1inexp{
+            height: 15em !important;
+            width: 15em !important;
+        }
+        #pic2inexp{
+            height: 15em !important;
+            width: 15em !important;
+            padding-right:8em !important;
+        }
+        #text-sizeinex{
+            display: none;
+        }
+        .titlecolor{
+         font-size: 2em !important;
+         padding-right: 5em !important;
+        }
+        #imginskills{
+        display: none;
+        }
+        #Myskills{
+        padding-right:50em !important;
+        }
+    }
+
