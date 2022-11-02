@@ -5,77 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shaima'</title> 
+    <link rel="stylesheet" href="style.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- header container -->
-    <div class="container-fluid div-container" id="home">
-        <div class="row">
-            <!-- profile image -->
-            <div class="container-fluid col-md-6 justify-content-start ">
-                <img src="images/Profilepic.png " class="img-fluid" alt="Profile" id="imgheader">
-            </div>
-            <!-- name,objective -->
-            <div class="container col-md-6 ContainerObjName">
-                <div class="row">
-                    <p class="h1 myname text-center">Shaima' Bassam Al-shlouh</p>
-                </div>
-                <div class="row">
-                    <p class="h5 text-secondary text-center">Full Stack Developer</p>
-                </div>
-                <div class="row">
-                    <p class="my-5 text-center text-align-center">
-                        I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Navbar Container -->
-    <div class="container-fluid background-nav fixed-top">
+
+    <header>
+           <!-- Navbar Container -->
+    <div class=" nav1 fixed-top">
         <div class="row">
             <div class="container col-md-2">
-                <p class="logo1 justify-content-end">SH</p>
+                <img src="images/logo.png" alt="Shaima'" id="logo">
             </div>
-            <div class=" container col-md-10 ">
-                <ul class="justify-content-end px-5">
-                    <li class="pt-4 px-2">
+            <div class=" container col-md-10 textinnav nav justify-content-end">
+                <ul >
+                    <li class="pt-4 ">
                         <a href="#home">
-                            <img src="images/home.png" alt="Home" class="IconsSize img-fluid">
+                            <p class=textinnav>Home</p>
                         </a>
                     </li>
                     <li class="pt-4 px-2">
                         <a href="#Education">
-                            <img src="images/graduate.png" alt="Education" class="IconsSize img-fluid">
+                            <p class=textinnav>Education</p>
                         </a>
                     </li>
                     <li class="pt-4 px-2">
                         <a href="#Projects">
-                            <img src="images/google-docs.png" alt="Projects" class="IconsSize img-fluid">
+                            <p class=textinnav>Projects</p>
                         </a>
                     </li>
                     <li class="pt-4 px-2">
                         <a href="#Experince">
-                            <img src="images/suitcase.png" alt="Experince" class="IconsSize img-fluid">
+                            <p class=textinnav>Experince</p>
                         </a>
                     </li>
                     <li class="pt-4 px-2">
                         <a href="#Skills">
-                            <img src="images/recruitment.png" alt="Skills" class="IconsSize img-fluid">
+                            <p class=textinnav>Skills</p>
                         </a>
                     </li>
                     <li class="pt-4 px-2">
                         <a href="#Contact">
-                            <img src="images/person-info.png" alt="Contact" class="IconsSize img-fluid">
+                            <p class=textinnav>Contact</p>
                         </a>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- header container -->
+    <div class="container-fluid div-container" id="home">
+        <div class="row">
+            <!-- profile image -->
+            <div class="col-md-4">
+                <img src="images/Profilepic.png " class="img-fluid" alt="Profile" id="imgheader">
+            </div>
+            <!-- name,objective -->
+            <div class="container col-md-8 ContainerObjName">
+                <div class="row imcontainer">
+                    <p class="im">I'm</p>
+                </div>
+                <div class="row">
+                    <p class=" text-start myname">Shaima' Bassam Al-shlouh <span class="text-secondary1 text-end">Full Stack Developer</span>
+                </div>
+                <div class="row quote1">
+                <p class="quote1"><span class="qutationcolor">“</span><span class="quote3">If we can dream it</span><span class="quote2">, we can do it</span><span id="qutationcolor">”</span>
+                </p>
+                </div>
+                 <!-- cv button -->
+                 <span class="row justify-content-center cvbutton">
+                    <a class="btn btn btn btn-lg w-25 h-100 " id=cvbutton style="background-color:#598099;color:white"  href="images/shaima_cv.pdf"
+                    target="_blank">Download CV</a>
+                </span>
             </div>
         </div>
     </div>
@@ -84,23 +90,16 @@
     <div class="container-fluid line">
         <!-- <div class=""></div> -->
     </div>
+
+    </header>
+
+
     <!-- Education Section -->
-    <div class="container-fluid backgroundedu pt-5" id="Education">
-        <div class="row justify-content-center">
-            <!-- Education list -->
-            <div class=" col col-md-4 col-lg">
-                <h1 class="titlecolor">Education</h1>
-                <ul class="EducationList">
-                    <li class="h5">Trainee At Orange Coding Academy </li>
-                    <dd>Sep 2022 - Mar 2022</dd>
-                    <li class="h5"> Marketing Degree in Mutah</li>
-                    <dd>2016-2019</dd>
-                </ul>
-            </div>
-            <!-- Education image -->
-            <div class=" col col-md-4">
-                <img src="images/Set_of_programmers_02_02.jpg" alt="Education" class="rounded-circle w-100 h-100 img-fluid w-25 w-lg-50">
-            </div>
+    <div class="container backgroundedu" id="Education">
+
+        <div class=" col-md-4 "> </div>
+        <div class=" col-md-4"></div>
+        <div class=" col-md-4"></div>
         </div>
     </div>
     <!-- Projects section -->
@@ -221,19 +220,16 @@
     <!-- footer -->
     <div class="footer" id="Contact">
 
-    <span id="phonesection"><img src="images/phone.png" alt="Phone" class="icons-footer">
-    <p class="footer-text">07 7808 0924</p>
-    </span>
+    
     <span id="emailsection" ><img src="images/email.png" alt="email" class="icons-footer">
-    <p class="footer-text">shaima.alshlouh@gmail.com</p>
     </span>
-    <span id="addresssection"><img src="images/address.png" alt="address" class="icons-footer">
-    <p class="footer-text">Aqaba-Jordan <br>Sixth Area</p>
-    </span>
-    <span id="githubsection" ><a href="https://github.com/ShaimaBassam"><img src="images/github.png" alt="Github" class="icons-footer" ></a></span>
+    
+    <span id="githubsection" ><a href="https://github.com/ShaimaBassam" target="_blank"><img src="images/github.png" alt="Github" class="icons-footer" ></a></span>
+
     <span id="linkedinsection"><a href="https://www.linkedin.com/in/shaima-al-shlouh-02222a253/"><img src="images/linkedin.png" alt="linkedin" class="icons-footer"></a></span>
-    <span id="create"><p class="create-text">created by</p></span>
-   <span id="sh"> <p>SH</p></span>
+
+    <span id="copy"><p class="create-text">Copyright @ Shaima' all right reserved </p></span>
+   
    
     </div>
 
